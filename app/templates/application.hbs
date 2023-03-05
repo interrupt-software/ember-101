@@ -9,4 +9,9 @@
 
 <Hds::Button @text="Copy to clipboard" />
 
+<Hds::IconTile @icon="user" />
+<Hds::IconTile @logo="vault" />
+
+<Hds::Button @text="Open basic modal" @color="secondary" {{on "click" (fn this.activateModal "basicModalActive" )}} />
+
 {{outlet}}

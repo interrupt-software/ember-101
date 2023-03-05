@@ -8,3 +8,9 @@
 @import "~@hashicorp/design-system-tokens/dist/devdot/css/helpers/elevation.css";
 @import "~@hashicorp/design-system-tokens/dist/devdot/css/helpers/typography.css";
 @import "~@hashicorp/design-system-tokens/dist/devdot/css/helpers/focus-ring.css";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
