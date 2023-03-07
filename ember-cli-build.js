@@ -7,7 +7,7 @@ module.exports = function (defaults) {
     // Add options here
 
     sassOptions: {
-      extension: "scss",
+      extension: 'scss',
       precision: 4,
       includePaths: [
         './node_modules/@hashicorp/design-system-tokens/dist/products/css',
@@ -19,7 +19,6 @@ module.exports = function (defaults) {
         advanced: false,
       },
     },
-
   });
 
   // Use `app.import` to add additional libraries to the generated
