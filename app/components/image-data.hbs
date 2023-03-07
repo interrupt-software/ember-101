@@ -1,9 +1,11 @@
-<h2>{{@title}}</h2>
+{{!-- <h2>{{@title}}</h2> --}}
 
-{{#each @images as |image|}}
-<div>
-    {{!-- template-lint-disable require-valid-alt-text --}}
-    <img src="/assets/images/{{image}}" alt="">
-    <p>{{image}}</p>
-</div>
-{{/each}}
+<GridContainer>
+    {{#each @images as |image|}}
+    <div>
+        {{!-- template-lint-disable require-valid-alt-text --}}
+        <img src="/assets/images/{{image}}" alt="">
+        {{!-- <p>{{image}}</p> --}}
+    </div>
+    {{/each}}
+</GridContainer>

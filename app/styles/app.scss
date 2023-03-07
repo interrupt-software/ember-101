@@ -9,6 +9,9 @@
 @import "~@hashicorp/design-system-tokens/dist/devdot/css/helpers/typography.css";
 @import "~@hashicorp/design-system-tokens/dist/devdot/css/helpers/focus-ring.css";
 
+@import './main';
+@import './grid_container';
+
 // Reset recommended
 *,
 *::before,
