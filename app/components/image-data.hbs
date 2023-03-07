@@ -4,7 +4,10 @@
     {{#each @images as |image|}}
     <div>
         {{!-- template-lint-disable require-valid-alt-text --}}
-        <img src="/assets/images/{{image}}" alt="">
+        <Hds::Card::Container @level="mid" @hasBorder={{true}}>
+            <img src="/assets/images/{{image}}" alt="">
+        </Hds::Card::Container>
+
         {{!-- <p>{{image}}</p> --}}
     </div>
     {{/each}}
