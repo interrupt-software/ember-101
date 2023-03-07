@@ -2,13 +2,11 @@
 
 <GridContainer>
     {{#each @images as |image|}}
-    <div>
-        {{!-- template-lint-disable require-valid-alt-text --}}
-        <Hds::Card::Container @level="mid" @hasBorder={{true}}>
+    <Hds::Card::Container @level="high" @hasBorder={{true}}>
+        <div class="grid-cell">
+            {{!-- template-lint-disable require-valid-alt-text --}}
             <img src="/assets/images/{{image}}" alt="">
-        </Hds::Card::Container>
-
-        {{!-- <p>{{image}}</p> --}}
-    </div>
+        </div>
+    </Hds::Card::Container>
     {{/each}}
 </GridContainer>

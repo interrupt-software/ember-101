@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    // grid-template-rows: repeat(3, 150px);
+    gap: 1px;
+}
+
+.grid-cell {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 150px;
+    height: 150px;
+}
