@@ -2,7 +2,7 @@
 
 <GridContainer>
     {{#each @images as |image|}}
-    <Hds::Card::Container @level="high" @hasBorder={{true}}>
+    <Hds::Card::Container @levelHover="high" @level="high" @hasBorder={{false}} @background="neutral-secondary">
         <div class="grid-cell">
             {{!-- template-lint-disable require-valid-alt-text --}}
             <img src="/assets/images/{{image}}" alt="">
