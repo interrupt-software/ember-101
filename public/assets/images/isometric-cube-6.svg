@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>isometric-cube 6</title>
+    <title>isometric-cube-6</title>
     <g id="isometric-cube-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Path" stroke-opacity="0.5" stroke="#979797" stroke-width="0.5" stroke-linecap="round" points="-2.27682456e-14 37.5 75 5.27355937e-16 150 37.5 75 75"></polygon>
         <polygon id="Path" stroke-opacity="0.5" stroke="#979797" stroke-width="0.5" stroke-linecap="round" points="-2.27682456e-14 112.5 75 75 150 112.5 75 150"></polygon>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>isometric-cube 8</title>
+    <title>isometric-cube-8</title>
     <defs>
         <linearGradient x1="25.191215%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
             <stop stop-color="#B6B8C2" offset="0%"></stop>

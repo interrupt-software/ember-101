@@ -1,12 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150">
+    <defs>
+        <linearGradient id="a" x1="0" x2="1" y1="0" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#0F0">
+                <animate attributeName="stop-color" dur="5s" repeatCount="indefinite"
+                    values="#844FBA;#979797;#844FBA" />
+            </stop>
+        </linearGradient>
+        <animateTransform attributeName="gradientTransform" type="rotate" values=" 360 .5 .5; 0 .5 .5" dur="5s"
+            repeatCount="indefinite">
+        </animateTransform>
+    </defs>
     <g fill="none" fill-rule="evenodd" stroke="#979797">
         <path stroke-linecap="round" stroke-opacity=".5" stroke-width=".5"
-            d="M0 37.5 75 0l75 37.5L75 75zM0 112.5 75 75l75 37.5L75 150z" />
+            d="M0 37.5 75 0l75 37.5L75 75zm0 75L75 75l75 37.5L75 150z" />
         <path fill="#DBDBDC"
             d="m76.447 134.276 58-29a1 1 0 0 0 .553-.894V76.618a1 1 0 0 0-1.447-.894l-58 29a1 1 0 0 0-.553.894v27.764a1 1 0 0 0 1.447.894Z" />
-        <path fill="#B6B8C2"
+        <path fill="#B6B8C2" stroke="url(#a)"
             d="m73.553 134.276-58-29a1 1 0 0 1-.553-.894V76.618a1 1 0 0 1 1.447-.894l58 29a1 1 0 0 1 .553.894v27.764a1 1 0 0 1-1.447.894Z" />
-        <path fill="#F2F2F3"
+        <path fill="#F2F2F3" stroke="url(#a)"
             d="m16.789 74.106 57.764-28.882a1 1 0 0 1 .894 0l57.764 28.882a1 1 0 0 1 0 1.788l-57.764 28.882a1 1 0 0 1-.894 0L16.789 75.894a1 1 0 0 1 0-1.788Z" />
         <path
             d="m16.106 74.447 58-29a2 2 0 0 1 1.788 0l58 29a2 2 0 0 1 1.106 1.79v27.527a2 2 0 0 1-1.106 1.789l-58 29a2 2 0 0 1-1.788 0l-58-29a2 2 0 0 1-1.106-1.79V76.237a2 2 0 0 1 1.106-1.789Z" />
